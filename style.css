@@ -10,12 +10,9 @@
   height: 100%;
   background: url('profile.jpeg') center center no-repeat;
   background-size: cover;
-  
+
 /* This clips the image to a circle shape */
-  overflow:hidden;
-	position: absolute;
-	width: 300px;
-	height: 300px;
+  overflow: hidden;
 	border-radius: 300px;
 	-webkit-border-radius: 300px;
 	-moz-border-radius: 300px;
@@ -37,12 +34,3 @@
   background: linear-gradient(135deg, rgba(255,20,130,1) 0%, rgba(206,34,206,0.85) 37%, rgba(5,30,255,0.6) 100%);
   opacity: .7;
 }
-
-/* background-image: linear-gradient(to bottom right, #002f4b, #dc4225); */
-/* background: rgba(252,22,129,1);
-background: -moz-linear-gradient(-45deg, rgba(252,22,129,1) 0%, rgba(117,189,209,1) 65%, rgba(73,165,191,1) 100%);
-background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,22,129,1)), color-stop(65%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
-background: -webkit-linear-gradient(-45deg, rgba(252,22,129,1) 0%, rgba(117,189,209,1) 65%, rgba(73,165,191,1) 100%);
-background: -o-linear-gradient(-45deg, rgba(252,22,129,1) 0%, rgba(117,189,209,1) 65%, rgba(73,165,191,1) 100%);
-background: -ms-linear-gradient(-45deg, rgba(252,22,129,1) 0%, rgba(117,189,209,1) 65%, rgba(73,165,191,1) 100%);
-background: linear-gradient(135deg, rgba(252,22,129,1) 0%, rgba(117,189,209,1) 65%, rgba(73,165,191,1) 100%); */
